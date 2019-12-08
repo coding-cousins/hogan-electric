@@ -5,7 +5,7 @@
 
   .cta {
     position: absolute;
-    bottom: 35%;
+    bottom: 29%;
     padding: .3rem .5rem;
     font-size: 2rem;
     left: 50%;
@@ -15,6 +15,8 @@
     background: transparent;
     color: white;
     transition: all ease-in-out .2s;
+    font-family: 'Bebas Neue', sans-serif;
+
 
     &:hover {
       cursor: pointer;
@@ -22,7 +24,7 @@
       background-color: white;
     }
   }
-  
+
   .slogan {
     position: absolute;
     top: 36%;
@@ -32,6 +34,12 @@
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: .35rem;
+    font-family: 'Bebas Neue', sans-serif;
+
+    span {
+      border-bottom: solid 2px #F89D14;
+      font-family: 'Bebas Neue', sans-serif;
+    }
   }
 
   .video-container {
