@@ -8,6 +8,11 @@
   height: 5rem;
   background-color: rgba(255, 255, 255, 0.021);
   color: white;
+  
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .08rem;
+  }
 
   .logo {
     width: 3rem;
@@ -19,7 +24,5 @@
         cursor: pointer;
       }
     }
-
-    
   }
 }
