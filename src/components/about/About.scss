@@ -1,4 +1,22 @@
 .About {
-  height: 3rem;
-  background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: lightslategray;
+  padding: 3rem .4rem;
+  
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .electrical-guy {
+    width: 28rem;
+    height: auto;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
 }
